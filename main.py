@@ -61,4 +61,4 @@ if __name__ == "__main__":
     price_value = get_value_from_website(website_url) or "ERROR"
 
     # open (windows) system popup
-    ctypes.windll.user32.MessageBoxW(0, price_value, "The price now is:")
+    ctypes.windll.user32.MessageBoxW(0, price_value, "The price now is:", 0)
